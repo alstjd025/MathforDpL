@@ -19,8 +19,7 @@ def dEa(a, b):
 def dEb(a, b):
     sum_value = 0
     for i in data:
-        sum_value += \
-            sigmoid(a * i[0] + b) - i[1]
+        sum_value += sigmoid(a * i[0] + b) - i[1]
     return sum_value
 
 
