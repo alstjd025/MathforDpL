@@ -1,2 +1,2 @@
 # MathforDpL
-Neccesory Mathmatics for DeepLearning  
+Neccesory Mathmatics for DeepLearning & Examples
