@@ -1,5 +1,5 @@
 #  유방암 데이터 셋의 스케일이 서로 다른 데이터를 사용하여 훈련하였을 때의 결과 관찰
-
+#  스케일을 조정하기 
 
 import numpy as np
 import matplotlib.pyplot as plt
