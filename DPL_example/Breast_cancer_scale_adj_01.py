@@ -98,8 +98,8 @@ layer1.fit(x_train, y_train)
 print(layer1.score(x_val, y_val))
 
 
-w2 = []
-w3 = []
+w2 = []    # 유방암 데이터의 mean perimeter
+w3 = []    # 유방암 데이터의 mean area    (편차가 큰 데이터셋 2개를 비교함)
 for w in layer1.w_history:
     w2.append(w[2])
     w3.append(w[3])
